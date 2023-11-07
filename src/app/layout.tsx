@@ -1,19 +1,13 @@
-import { Poppins } from 'next/font/google'
 import { Metadata } from 'next'
 import Providers from '@/hooks/provider'
-import Favicon from "../../public/header.png";
-
-const poppins = Poppins({
-   subsets: ['latin'],
-   display: 'swap',
-   variable: '--font-poppins',
-   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-})
+import Favicon from '../../public/favicon.png'
+import { poppins } from '@/fonts/font'
+import { AOSInit } from '@/utils/aos'
 
 export const metadata: Metadata = {
-  title: "Portfólio | Matheus Petrato",
-  description: "Portfólio Matheus Petrato",
-  icons: [{ rel: "icon", url: Favicon.src }],
+   title: 'Portfólio | Matheus Petrato',
+   description: 'Portfólio Matheus Petrato',
+   icons: [{ rel: 'icon', url: Favicon.src }],
 }
 
 export default function RootLayout({
@@ -23,7 +17,8 @@ export default function RootLayout({
 }) {
    return (
       <html lang="pt-BR">
-         <body className={`${poppins.variable}`}>
+         <AOSInit />
+         <body className={`${poppins.variable} antialiased`}>
             <Providers>{children}</Providers>
          </body>
       </html>

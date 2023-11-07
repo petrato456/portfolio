@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.28",
+    "aos": "^2.3.4",
+    "lottie-react": "^2.4.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -17,6 +19,7 @@
     "styled-components": "^6.0.8"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.6",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",

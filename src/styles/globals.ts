@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
      * {    
@@ -7,11 +7,9 @@ export const GlobalStyle = createGlobalStyle`
     outline: none;
     border: none;
     
-    box-sizing: border-box;
+    box-sizing: border-box;    
   }
-  html {
-  }
-
+ 
   a {
     text-decoration: none;
   }
