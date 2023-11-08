@@ -28,7 +28,7 @@ export default function Home() {
    return (
       <Styles.Wrapper>
          <Grid>
-            <Header />
+            <Header page='home' />
             <Main
                subtitle={response.subtitle}
                technologies={response.technologies}

@@ -152,11 +152,6 @@ export const Technologies = styled.div`
             color: ${(props) => props.theme.colors.gray_light};
 
             cursor: pointer;
-
-            &:hover {
-               scale: 1.1;
-               color: ${(props) => props.theme.colors.white};
-            }
          }
       }
    }

@@ -22,8 +22,8 @@ export default function Card({ project }: CardProps) {
                className="image"
                alt=""
                src={project.projectimage?.url}
-               width={400}
-               height={400}
+               width={320}
+               height={320}
                loading="lazy"
             />
             <div className="descriptions">

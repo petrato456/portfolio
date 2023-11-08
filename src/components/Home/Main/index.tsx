@@ -46,20 +46,22 @@ export default function Main({ subtitle, technologies }: MainProps) {
                         Entre em contato
                      </Button>
                   </Link>
-                  <li data-aos="fade-left">
-                     <Link href="https://www.linkedin.com/in/matheus-petrato-9a44b0205/">
-                        <AiFillLinkedin className="icon" />
-                     </Link>
-                     <Link href="https://www.instagram.com/petrato_matheus/">
-                        <BiLogoInstagram className="icon" />
-                     </Link>
-                     <Link
-                        href="https://api.whatsapp.com/send?phone=5521990247972"
-                        target="_blank"
-                     >
-                        <AiOutlineWhatsApp className="icon" />
-                     </Link>
-                  </li>
+                  <ul>
+                     <li data-aos="fade-left">
+                        <Link href="https://www.linkedin.com/in/matheus-petrato-9a44b0205/">
+                           <AiFillLinkedin className="icon" />
+                        </Link>
+                        <Link href="https://www.instagram.com/petrato_matheus/">
+                           <BiLogoInstagram className="icon" />
+                        </Link>
+                        <Link
+                           href="https://api.whatsapp.com/send?phone=5521990247972"
+                           target="_blank"
+                        >
+                           <AiOutlineWhatsApp className="icon" />
+                        </Link>
+                     </li>
+                  </ul>
                </footer>
             </Styles.Technologies>
          </Styles.Title>

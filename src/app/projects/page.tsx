@@ -26,7 +26,7 @@ export default function Projects() {
    return (
       <Styles.WrapperProjects>
          <Grid>
-            <Header />
+            <Header page='projects'/>
             <Hero />
             <ListProjects
                listProjects={responseProjects.listprojectspageid}
